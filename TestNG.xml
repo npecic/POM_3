@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test" parallel="tests" thread-count="6">
+    <parameter name="SHEET" value="BookingSheet"/>
+
+        <test name="Booking">
+            <parameter name="TC_ID" value="TC_ID_0001"/>
+        <classes>
+            <class name="tests.BookingTests"/>
+        </classes>
+    </test>
+<!--    <test name="Booking1">-->
+<!--        <parameter name="TC_ID" value="TC_ID_0002"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.BookingTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Booking2">-->
+<!--        <parameter name="TC_ID" value="TC_ID_0003"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.BookingTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Booking3">-->
+<!--        <parameter name="TC_ID" value="TC_ID_0004"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.BookingTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Booking4">-->
+<!--        <parameter name="TC_ID" value="TC_ID_0005"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.BookingTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Booking5">-->
+<!--        <parameter name="TC_ID" value="TC_ID_0006"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.BookingTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
